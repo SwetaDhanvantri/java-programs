@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Java Script constant</title>
+     
+    </head>
+    <body>
+        <h1>Java Script Constant</h1>
+        <p id="demo"></p>
+        <script>
+            const cloths = ["jeans", "top", "jacket", "crop top"];  //create an array:
+            cloths[1] = "shorts";   //change eleement:
+            cloths.push("sporty");  //add element:
+            document.getElementById("demo").innerHTML = cloths;
+        </script>
+        <h1>Constant Object</h1>
+        <p id="demo1"></p>
+        <script>
+            const dress = {Name:"Gown", color:"black", long:"40cm"};                  //create an object:
+            dress.color="Red";                    //change property:
+            dress.width="25cm" ;                         //add property:
+            document.getElementById("demo1").innerHTML = "dress width is" + dress.width;
+            
+
+        </script>
+    </body>
+</html>
